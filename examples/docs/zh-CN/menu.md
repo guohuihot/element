@@ -187,7 +187,7 @@
 | mode     | 模式   | string  |   horizontal,vertical   | vertical |
 | theme     | 主题色   | string    | light,dark | light |
 | default-active | 当前激活菜单的 index | string    | — | — |
-| default-openeds | 当前打开的submenu的 key 数组 | Array    | — | — |
+| default-openeds | 当前打开的submenu的 key 数组 :default-openeds=['1', '2'] 需要注意的是数据级项必须是字符串 | Array    | — | — |
 | unique-opened  | 是否只保持一个子菜单的展开 | boolean   | — | false   |
 | menu-trigger  | 子菜单打开的触发方式(只在 mode 为 horizontal 时有效) | string   | — | hover   |
 | router  | 是否使用 vue-router 的模式，启用该模式会在激活导航时以 index 作为 path 进行路由跳转 | boolean   | — | false   |
