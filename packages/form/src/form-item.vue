@@ -12,6 +12,7 @@
       <transition name="el-zoom-in-top">
         <div class="el-form-item__error" v-if="validateState === 'error' && showMessage && form.showMessage">{{validateMessage}}</div>
       </transition>
+      <slot name="other"></slot>
     </div>
   </div>
 </template>
